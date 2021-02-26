@@ -47,7 +47,7 @@ function dirReduction(directions) {
         }
     }
 
-    return 'Dirección optimizada: ' + directionOptimize;
+    return directionOptimize;
 }
 
 const matrix = ['North', 'South', 'South', 'East', 'West', 'North', 'West'];
